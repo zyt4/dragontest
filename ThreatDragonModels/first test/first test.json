@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 259.9999999999992,
-              "y": 20.00000000000108
+              "x": 260,
+              "y": 20
             },
             "size": {
               "width": 430,
@@ -37,108 +37,6 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "824e5395-9c4c-4cb1-ba56-b0a215760cf2",
-            "source": {
-              "cell": "7c144ad0-9b5c-498c-9587-79fe5c19a5fa",
-              "port": "e038958d-baf0-4fcd-8df6-2c5a3dc7fbab"
-            },
-            "target": {
-              "cell": "403dd06d-7f4e-4d28-a784-de0cb35050cf",
-              "port": "92738906-455b-4f0c-856c-e27c5d4bb661"
-            },
-            "vertices": [
-              {
-                "x": 360,
-                "y": 140
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "d07b7e8a-4bae-4075-93bf-08141214fcd8",
-            "source": {
-              "cell": "7c144ad0-9b5c-498c-9587-79fe5c19a5fa",
-              "port": "e038958d-baf0-4fcd-8df6-2c5a3dc7fbab"
-            },
-            "target": {
-              "cell": "bda71716-7cff-48df-b4c2-c7196a3e224a",
-              "port": "92738906-455b-4f0c-856c-e27c5d4bb661"
-            },
-            "vertices": [
-              {
-                "x": 360,
-                "y": 220
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -447,6 +345,118 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Preposilani",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Preposilani"
+            ],
+            "id": "36c289aa-ecad-48c1-941d-a3139350dc51",
+            "source": {
+              "cell": "7c144ad0-9b5c-498c-9587-79fe5c19a5fa",
+              "port": "e038958d-baf0-4fcd-8df6-2c5a3dc7fbab"
+            },
+            "target": {
+              "cell": "403dd06d-7f4e-4d28-a784-de0cb35050cf",
+              "port": "92738906-455b-4f0c-856c-e27c5d4bb661"
+            },
+            "vertices": [
+              {
+                "x": 370,
+                "y": 140
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Preposilani",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Preposilani"
+            ],
+            "id": "8e4b2ac9-17d7-4b3e-b519-e4d93553d909",
+            "source": {
+              "cell": "7c144ad0-9b5c-498c-9587-79fe5c19a5fa",
+              "port": "e038958d-baf0-4fcd-8df6-2c5a3dc7fbab"
+            },
+            "target": {
+              "cell": "bda71716-7cff-48df-b4c2-c7196a3e224a",
+              "port": "92738906-455b-4f0c-856c-e27c5d4bb661"
+            },
+            "vertices": [
+              {
+                "x": 360,
+                "y": 220
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
             "position": {
               "x": 420,
               "y": 110
@@ -456,6 +466,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Progtest"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -550,7 +563,7 @@
             "zIndex": 12,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Progtest",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -573,6 +586,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "SQLi"
+              },
               "topLine": {
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
@@ -670,8 +686,8 @@
             "zIndex": 13,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
-              "description": "",
+              "name": "SQLi",
+              "description": "Internal SQLi storage",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -694,6 +710,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "KOS"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -788,7 +807,7 @@
             "zIndex": 14,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "KOS",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -811,6 +830,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Proxy"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -905,8 +927,8 @@
             "zIndex": 15,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
-              "description": "",
+              "name": "Proxy",
+              "description": "Squid server",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -928,6 +950,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "RDS Postgress"
+              },
               "topLine": {
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
@@ -1025,7 +1050,7 @@
             "zIndex": 16,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "RDS Postgress",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1037,13 +1062,6 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1056,6 +1074,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Student"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -1150,7 +1171,7 @@
             "zIndex": 17,
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "Student",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
