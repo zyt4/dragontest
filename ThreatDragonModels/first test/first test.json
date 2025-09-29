@@ -73,108 +73,6 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "e46fe742-6100-4e66-81c2-40ffd6bf8a83",
-            "source": {
-              "cell": "bda71716-7cff-48df-b4c2-c7196a3e224a",
-              "port": "e038958d-baf0-4fcd-8df6-2c5a3dc7fbab"
-            },
-            "target": {
-              "cell": "e80b5a7d-8da4-44ef-bb05-7dad15045ed1",
-              "port": "e3d6de74-9f23-4b53-b5e7-70607473a67e"
-            },
-            "vertices": [
-              {
-                "x": 650,
-                "y": 290
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "3583daaa-77ab-465a-a98c-18a1721c8d43",
-            "source": {
-              "cell": "e80b5a7d-8da4-44ef-bb05-7dad15045ed1",
-              "port": "e3d6de74-9f23-4b53-b5e7-70607473a67e"
-            },
-            "target": {
-              "cell": "bda71716-7cff-48df-b4c2-c7196a3e224a",
-              "port": "e038958d-baf0-4fcd-8df6-2c5a3dc7fbab"
-            },
-            "vertices": [
-              {
-                "x": 700,
-                "y": 230
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
             "id": "6c8c1845-411a-4811-8de1-9e7354e0f059",
             "source": {
               "cell": "403dd06d-7f4e-4d28-a784-de0cb35050cf",
@@ -444,17 +342,155 @@
                 "x": 360,
                 "y": 220
               }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
             ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "id": "5104a39d-ec11-41db-a146-129df5d36e86",
+            "source": {
+              "cell": "117bed99-2cbd-4777-a27e-0bd6629e3257",
+              "port": "e038958d-baf0-4fcd-8df6-2c5a3dc7fbab"
+            },
+            "target": {
+              "cell": "d5855e54-30aa-4f5b-8991-951049100408",
+              "port": "e3d6de74-9f23-4b53-b5e7-70607473a67e"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "80f38f16-cff7-4b28-af61-6ccdd4785d94",
+            "source": {
+              "cell": "bda71716-7cff-48df-b4c2-c7196a3e224a",
+              "port": "e038958d-baf0-4fcd-8df6-2c5a3dc7fbab"
+            },
+            "target": {
+              "cell": "117bed99-2cbd-4777-a27e-0bd6629e3257",
+              "port": "92738906-455b-4f0c-856c-e27c5d4bb661"
+            },
+            "vertices": [
+              {
+                "x": 640,
+                "y": 210
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": true,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "a4e59206-861d-4061-a93b-20d57fb4f53a",
+            "source": {
+              "cell": "117bed99-2cbd-4777-a27e-0bd6629e3257",
+              "port": "92738906-455b-4f0c-856c-e27c5d4bb661"
+            },
+            "target": {
+              "cell": "bda71716-7cff-48df-b4c2-c7196a3e224a",
+              "port": "e038958d-baf0-4fcd-8df6-2c5a3dc7fbab"
+            },
+            "vertices": [
+              {
+                "x": 610,
+                "y": 280
+              }
+            ]
           },
           {
             "position": {
@@ -942,130 +978,6 @@
           },
           {
             "position": {
-              "x": 800,
-              "y": 230
-            },
-            "size": {
-              "width": 120,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "RDS Postgress"
-              },
-              "topLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              },
-              "bottomLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "store",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "a71d12c6-243c-456e-9ca4-d8c888ca5c4e"
-                },
-                {
-                  "group": "right",
-                  "id": "25f08cf7-fe87-4282-9825-15a1eeaf73ec"
-                },
-                {
-                  "group": "bottom",
-                  "id": "fad9b30c-47ea-4509-a0e1-fbf1eeeec736"
-                },
-                {
-                  "group": "left",
-                  "id": "e3d6de74-9f23-4b53-b5e7-70607473a67e"
-                }
-              ]
-            },
-            "id": "e80b5a7d-8da4-44ef-bb05-7dad15045ed1",
-            "zIndex": 16,
-            "data": {
-              "type": "tm.Store",
-              "name": "RDS Postgress",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
               "x": 23,
               "y": 150
             },
@@ -1179,6 +1091,257 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 732,
+              "y": 222
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "AWS RDS"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "fda74538-8547-4aa8-891d-9359da022ae8"
+                },
+                {
+                  "group": "right",
+                  "id": "e038958d-baf0-4fcd-8df6-2c5a3dc7fbab"
+                },
+                {
+                  "group": "bottom",
+                  "id": "92844a90-47af-4adc-9df0-b991669ce863"
+                },
+                {
+                  "group": "left",
+                  "id": "92738906-455b-4f0c-856c-e27c5d4bb661"
+                }
+              ]
+            },
+            "id": "117bed99-2cbd-4777-a27e-0bd6629e3257",
+            "zIndex": 18,
+            "data": {
+              "type": "tm.Process",
+              "name": "AWS RDS",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 877,
+              "y": 222
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Postgres backend"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "a71d12c6-243c-456e-9ca4-d8c888ca5c4e"
+                },
+                {
+                  "group": "right",
+                  "id": "25f08cf7-fe87-4282-9825-15a1eeaf73ec"
+                },
+                {
+                  "group": "bottom",
+                  "id": "fad9b30c-47ea-4509-a0e1-fbf1eeeec736"
+                },
+                {
+                  "group": "left",
+                  "id": "e3d6de74-9f23-4b53-b5e7-70607473a67e"
+                }
+              ]
+            },
+            "id": "d5855e54-30aa-4f5b-8991-951049100408",
+            "zIndex": 19,
+            "data": {
+              "type": "tm.Store",
+              "name": "Postgres backend",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ]
