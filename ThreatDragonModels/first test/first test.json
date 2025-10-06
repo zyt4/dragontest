@@ -28,8 +28,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "0533080c-1aa8-489c-b8d9-80e33fc97644",
             "zIndex": -1,
+            "id": "0533080c-1aa8-489c-b8d9-80e33fc97644",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -513,6 +513,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -596,7 +597,6 @@
               ]
             },
             "id": "403dd06d-7f4e-4d28-a784-de0cb35050cf",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Progtest",
@@ -636,6 +636,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -719,7 +720,6 @@
               ]
             },
             "id": "0c305a04-2918-456b-aa71-25944a078abe",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
               "name": "SQLi",
@@ -757,6 +757,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -840,7 +841,6 @@
               ]
             },
             "id": "bda71716-7cff-48df-b4c2-c7196a3e224a",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
               "name": "KOS",
@@ -870,13 +870,14 @@
                 "text": "Proxy"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -960,7 +961,6 @@
               ]
             },
             "id": "7c144ad0-9b5c-498c-9587-79fe5c19a5fa",
-            "zIndex": 15,
             "data": {
               "type": "tm.Process",
               "name": "Proxy",
@@ -968,12 +968,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "9ecddd11-5291-4313-bc70-be3ebbc17cdc",
+                  "title": "Přetížení serveru",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "Jediný proxy server pro všechny aplikace vytváří single point of failure, kde pokud dojde k přetížení při vyšším provozu jedné aplikace znepřístupní to i ostatní.",
+                  "mitigation": "Pro každou aplikace používat samostatnou reverse proxy.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -997,6 +1019,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -1080,7 +1103,6 @@
               ]
             },
             "id": "5943cde0-9433-4737-8793-cf75de4e2783",
-            "zIndex": 17,
             "data": {
               "type": "tm.Actor",
               "name": "Student",
@@ -1114,6 +1136,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -1197,7 +1220,6 @@
               ]
             },
             "id": "117bed99-2cbd-4777-a27e-0bd6629e3257",
-            "zIndex": 18,
             "data": {
               "type": "tm.Process",
               "name": "AWS RDS",
@@ -1237,6 +1259,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -1320,7 +1343,6 @@
               ]
             },
             "id": "d5855e54-30aa-4f5b-8991-951049100408",
-            "zIndex": 19,
             "data": {
               "type": "tm.Store",
               "name": "Postgres backend",
@@ -1335,13 +1357,6 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ]
@@ -1349,6 +1364,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
